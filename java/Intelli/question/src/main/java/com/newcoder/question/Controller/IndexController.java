@@ -1,10 +1,7 @@
 package com.newcoder.question.Controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.ui.Model;
 @Controller
 public class IndexController {
@@ -13,6 +10,7 @@ public class IndexController {
     public String index(){
         return "hello spring";
     }
+
     @RequestMapping(path={"/profile/{groupId}/{userId}"})
     @ResponseBody
     public String profile(@PathVariable("userId") int userId,
@@ -23,9 +21,10 @@ public class IndexController {
     }
 
 
-    @RequestMapping(path = {"vm"})
-    @ResponseBody
-    public String template(Model model){
+    @RequestMapping(path = {"/vm"},method={RequestMethod.GET})
+    //@ResponseBody
+    public String template(){
+        System.out.print(4316);
         return "home";
     }
 }
