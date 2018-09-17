@@ -14,13 +14,13 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         bineryTree tree = new bineryTree();
-        Integer[] arr = test.generateRandom(15,0,100);
+        Integer[] arr = test.generateAlmostSorted(15,3);
         for(Integer num:arr){
             System.out.printf("%s ",num.toString());
             tree.insert(num,1);
         }
         System.out.println();
-        tree.removeMin();
+        tree.remove(4);
         tree.inOrder();
     }
 }

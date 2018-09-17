@@ -11,5 +11,11 @@ public class Node<K,V> {
         this.left = null;
         this.right = null;
     }
+    public Node(Node<K,V> node){
+        this.key = node.key;
+        this.value = node.value;
+        this.left = node.left;
+        this.right = node.right;
+    }
 }
 

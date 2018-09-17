@@ -69,50 +69,97 @@ public class bineryTree<K,V> {
     //有问题
     private void levelOrder(Node node){
         PriorityQueue<Node> queue = new PriorityQueue();
+        //借助队列
         queue.add(node);
-        while(true){
-            if(queue.isEmpty()) break;
+        while(!queue.isEmpty()){
             Node n = queue.poll();
             System.out.printf("%s ",n.key.toString());
             if(n.left != null) queue.add(n.left);
             if(n.right != null)  queue.add(n.right);
         }
     }
-    public <K> K minimum(){
+    public <K> Node minimum(){
         if(root!=null)
             return minimum(root);
         else throw new IllegalArgumentException("空树");
     }
-    private <K> K minimum(Node n){
+    private <K> Node minimum(Node n){
         //if(n == null ) return n.key;
         while(n.left != null)
             n = n.left;
-        return (K)n.key;
+        return n;
     }
-    public <K> K maximum(){
+    public <K> Node maximum(){
         if(root!=null)
             return maximum(root);
         else throw new IllegalArgumentException("空树");
     }
-    private <K> K maximum(Node n){
+    private <K> Node maximum(Node n){
         //if(n == null ) return n.key;
         while(n.right != null)
             n = n.right;
-        return (K)n.key;
+        return n;
     }
-    //不知道对不对,不对
+
     public void removeMin(){
-        removeMin(root);
+        root = removeMin(root);//删除最小元素并返回新root
     }
-    private void removeMin(Node n){
+    private Node removeMin(Node n){
         if(n.left==null){
-            if(n.right==null) //右子树为空，该节点就是最大值
-                n=null;
-            else{
-                n = n.right;
-            }
+            //右子树为空，该节点n就是最小值，返回null，右子树存在，返回右子树的跟
             count--;
+            return n.right;
         }
-        removeMin(n.left);
+        n.left=removeMin(n.left);
+        return n;
+    }
+    public void removeMax(){
+        root = removeMax(root);//删除最大元素并返回新root
+    }
+    private Node removeMax(Node n){
+        if(n.right==null){
+            //右子树为空，该节点n就是最大值，左子树存在，返回左子树的跟
+            count--;
+            return n.left;
+        }
+        n.right=removeMax(n.right);
+        return n;
+    }
+    public <K extends Comparable> void remove(K key){
+        root = remove(root,key);
+    }
+    private <K extends Comparable> Node remove(Node n, K key){
+        if(n==null) throw new IllegalArgumentException("没有该key");
+        if(key.compareTo(n.key) > 0) {
+             n.right = remove(n.right,key);
+             return n;
+        }
+        else if(key.compareTo(n.key) < 0){
+             n.left = remove(n.left,key);
+            return n;
+        }
+        else{
+            if(n.right == null){
+                count--;
+                return n.left;
+            }
+            if(n.left == null){
+                count--;
+                return n.right;
+            }
+            /*方法1：左右子树都不为空，将右子树的最小值作为根返回，但要先将最小值删除；
+            方法二：左右子树都不为空，将左子树的最大值作为根返回，但要先将原来书中的最大值删除；
+            * */
+            //方法一：
+            /*Node successor = new Node(maximum(n.right));
+            successor.right = removeMin(n.right);
+            successor.left = n.left;
+            return successor;*/
+            //方法二
+            Node precursor = new Node(minimum(n.left));
+            precursor.left = removeMax(n.left);
+            precursor.right = n.right;
+            return precursor;
+        }
     }
 }
