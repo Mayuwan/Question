@@ -14,6 +14,10 @@ public class User {
         this.salt = salt;
         this.headUrl = headUrl;
     }
+    public User(String name){
+        this.name = name;
+
+    }
 
     public void setId(int id) {
         this.id = id;

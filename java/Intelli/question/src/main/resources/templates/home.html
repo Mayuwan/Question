@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+
+    $!{key1}
+    $!{key2} ##key2不存在，！强制为空
+    ${key3}}
+
+    colors:$!{colors}
+
+    ##index索引，count:第几个数字
+    #foreach($color in $colors)
+        this is $color,$!{foreach.count}, $!{foreach.index}
+    #end
+
+    #foreach($key in $map.keySet())
+        this is map: $key, $map.get($key),$!{foreach.index}
+    #end
+
+    #foreach($k in $map.entrySet())
+        key:$k.key, value:$k.value
+    #end
+
+    User: $!{user.name},$!{user.getName()} //访问对象的字段和方法
+
+    #set($title = "title")//设置变量
+    Title: $!{title}
+
+    Parse:#parse("header.html")#解析展示
+    Include:#include("header.html");##文本展示
+
+    ##宏需要调用使用,第一个参数为函数名
+    #macro(render_color, $index, $color)
+        Color Render Macro $index, $color
+    #end
+    #foreach($color in $colors)
+        render_color(color,$foreach.index,$color)
+    #end
+
+    #set($hello = "hello")
+    #set($helloWorld = "$!{hello} world")//只解析双引号
+    #set($helloWorld2 = '$!{hello} world')
+    $!{helloWorld}
+    $!{helloWorld2}
+</pre>
+</body>
+</html>
