@@ -1,5 +1,6 @@
 package com.company;
-import java.util.PriorityQueue;
+
+import java.util.LinkedList;
 
 public class bineryTree<K,V> {
 
@@ -9,6 +10,9 @@ public class bineryTree<K,V> {
         root = null;
         count = 0;
     }
+
+    /**
+     * 二叉树的主要操作：插入，删除，打印，最大值，最笑值，删除最大值，删除最小值，是否包含某个元素**/
     public int size(){return count;}
     public boolean isEmpty(){return count == 0 ? true:false;}
     public <K extends Comparable> void insert(K key, V value){
@@ -68,14 +72,14 @@ public class bineryTree<K,V> {
     }
     //有问题
     private void levelOrder(Node node){
-        PriorityQueue<Node> queue = new PriorityQueue();
+        LinkedList<Node> queue = new LinkedList();
         //借助队列
         queue.add(node);
         while(!queue.isEmpty()){
             Node n = queue.poll();
             System.out.printf("%s ",n.key.toString());
-            if(n.left != null) queue.add(n.left);
-            if(n.right != null)  queue.add(n.right);
+            if(n.left != null) queue.offer(n.left);
+            if(n.right != null)  queue.offer(n.right);
         }
     }
     public <K> Node minimum(){
