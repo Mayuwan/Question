@@ -18,7 +18,7 @@ public class MaxHeap {
             count++;
         }
         for(int i=count/2; i>=1; i--)
-            shiftDown(i);
+            shiftDown(i) ;
     }
     public void insert(int key) {
         if(count<=capacity) {

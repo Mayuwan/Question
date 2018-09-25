@@ -46,11 +46,14 @@ public class sparseGraph implements Graph {
 
         }
     }
-    /*class adjIterator{
-        //private sparseGraph G;
+    public adjIterator getAdjIterater(int v){
+        return new adjIterator(v);
+    }
+    class adjIterator{
+        //private Graph G;
         private int v;
         private int index;
-        public adjIterator(sparseGraph graph,int v){
+        public adjIterator(int v){
             //this.G = graph;//////?????
             this.v = v;
             this.index=0;
@@ -69,7 +72,6 @@ public class sparseGraph implements Graph {
             return index>= matrix.get(v).size();
         }
     }
-    */
     public int getV() {
         return v;
     }
