@@ -7,6 +7,7 @@ public class User {
     private String salt;
     private String headUrl;
 
+    public User(){}
     public User(int id, String name, String password, String salt, String headUrl){
         this.id = id;
         this.name = name;
@@ -16,7 +17,6 @@ public class User {
     }
     public User(String name){
         this.name = name;
-
     }
 
     public void setId(int id) {
