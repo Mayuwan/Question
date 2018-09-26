@@ -40,6 +40,35 @@ public class DenseGraph  implements Graph {
             System.out.println();
         }
     }
+    public adjIterator getAdjIterater(int v){
+        return new adjIterator(v);
+    }
+    class adjIterator{
+        //private Graph G;
+        private int v;
+        private int index;
+        public adjIterator(int v){
+            //this.G = graph;//////?????
+            this.v = v;
+            this.index=0;
+        }
+        public int begin(){
+            index =-1;
+            return next();
+        }
+        public int next(){
+            index++;
+            for(index+=1;index<matrix[v].length;index++)  {//注意index+=1条件
+                if(matrix[v][index] == 1){
+                    return index;
+                }
+            }
+            return -1;
+        }
+        public boolean end(){
+            return index>= matrix[v].length;
+        }
+    }
     public int getV() {
         return v;
     }
