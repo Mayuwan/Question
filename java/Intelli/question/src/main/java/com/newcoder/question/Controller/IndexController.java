@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 import java.util.*;
 import java.io.*;
 
-@Controller
+//@Controller
 public class IndexController {
     @RequestMapping(path = {"/","/index"},method = {RequestMethod.GET})
     @ResponseBody

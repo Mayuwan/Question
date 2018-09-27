@@ -1,7 +1,7 @@
 package com.newcoder.question;
-//import com.newcoder.question.Dao.QuestionDAO;
+import com.newcoder.question.DAO.QuestionDAO;
 import com.newcoder.question.DAO.UserDAO;
-//import com.nowcoder.model.Question;
+import com.newcoder.question.Model.Question;
 import com.newcoder.question.Model.User;
 import org.junit.Assert;
 import org.junit.Test;
@@ -21,7 +21,8 @@ import java.util.Random;
 public class InitDataBaseTests {
     @Autowired
     UserDAO userDAO;
-
+    @Autowired
+    QuestionDAO questionDAO;
 
     @Test
     public void contextLoads() {
@@ -36,7 +37,7 @@ public class InitDataBaseTests {
 
             user.setPassword("newpassword");
             userDAO.updatePassword(user);
-            /*
+
             Question question = new Question();
             question.setCommentCount(i);
             Date date = new Date();
@@ -46,11 +47,14 @@ public class InitDataBaseTests {
             question.setTitle(String.format("TITLE{%d}", i));
             question.setContent(String.format("Balaababalalalal Content %d", i));
             questionDAO.addQuestion(question);
-            */
+
         }
 
         Assert.assertEquals("newpassword", userDAO.selectById(1).getPassword());
         userDAO.deleteById(1);
         Assert.assertNull(userDAO.selectById(1));
+
+        System.out.println(questionDAO.selectLatestQuestions(0,0 ,10));
+
     }
 }
