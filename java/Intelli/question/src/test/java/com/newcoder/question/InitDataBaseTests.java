@@ -48,6 +48,8 @@ public class InitDataBaseTests {
             question.setContent(String.format("Balaababalalalal Content %d", i));
             questionDAO.addQuestion(question);
 
+
+
         }
 
         Assert.assertEquals("newpassword", userDAO.selectById(1).getPassword());
