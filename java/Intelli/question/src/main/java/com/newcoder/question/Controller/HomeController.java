@@ -7,9 +7,7 @@ import com.newcoder.question.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
@@ -21,10 +19,9 @@ public class HomeController {
     QuestionService questionService;
     @Autowired
     UserService userService;
-    @RequestMapping(path = {"/","/index"},method = {RequestMethod.GET})
-    //@ResponseBody
-    public String index(Model model){
-        List<Question> questionsList  =questionService.selectLatestQuestions(0,0,10);
+
+    public List<ViewObject> getQuestions(int userId, int offset, int limit){
+        List<Question> questionsList  =questionService.selectLatestQuestions(userId,offset,limit);
         List<ViewObject> vos = new ArrayList<>();
         for(Question question: questionsList){
             ViewObject vo = new ViewObject();
@@ -32,9 +29,20 @@ public class HomeController {
             vo.set("user",userService.selectById(question.getUserId()));
             vos.add(vo);
         }
-        model.addAttribute("vos",vos);
+        return vos;
+    }
+
+    @RequestMapping(path = {"/","/index"},method = {RequestMethod.GET})
+    public String index(Model model){
+        model.addAttribute("vos",getQuestions(0,0,10));
         return "index";
     }
 
+    @RequestMapping(path = "/user/{useId}",method = RequestMethod.GET)
+    public String userIndex(Model model,
+                            @PathVariable("useId") int useId){
+        model.addAttribute("vos",getQuestions(useId,0,10));
+        return "index";
+    }
 
 }
