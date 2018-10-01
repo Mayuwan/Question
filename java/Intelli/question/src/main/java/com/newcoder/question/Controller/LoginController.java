@@ -60,7 +60,9 @@ public class LoginController {
     @RequestMapping(path = {"relogin"},method = {RequestMethod.GET})
     public String relogin(Model model,
                           @RequestParam(value = "next", required = false) String next){
-        model.addAttribute("next",next);
+        if(StringUtils.isNotBlank(next)){
+            model.addAttribute("next",next);
+        }
         return "login";
     }
 

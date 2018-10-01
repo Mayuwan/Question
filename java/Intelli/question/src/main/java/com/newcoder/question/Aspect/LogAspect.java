@@ -14,12 +14,12 @@ public class LogAspect {
     private static final Logger logger = LoggerFactory.getLogger(LogAspect.class);
     @Before("execution(* com.newcoder.question.Controller.*.*(..))")
     public void before(JoinPoint point){
-        StringBuilder sb= new StringBuilder();
+        /*StringBuilder sb= new StringBuilder();
         for(Object obj : point.getArgs()){
             sb.append(obj.toString()+" ");
-        }
+        }*/
         logger.info("before method");
-        logger.info(sb.toString());
+        //logger.info(sb.toString());
     }
     @After("execution(* com.newcoder.question.Controller.*.*(..))")
     public void after(){

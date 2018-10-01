@@ -38,11 +38,14 @@ public class HomeController {
         return "index";
     }
 
-    @RequestMapping(path = "/user/{useId}",method = RequestMethod.GET)
+    @RequestMapping(path = "/user/{userId}",method = RequestMethod.GET)
     public String userIndex(Model model,
-                            @PathVariable("useId") int useId){
-        model.addAttribute("vos",getQuestions(useId,0,10));
+                            @PathVariable("userId") int userId){
+        model.addAttribute("vos",getQuestions(userId,0,10));
         return "index";
     }
+
+
+
 
 }
