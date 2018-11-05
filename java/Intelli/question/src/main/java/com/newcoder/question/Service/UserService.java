@@ -21,6 +21,9 @@ public class UserService {
     public User selectById(int id){
         return userDAO.selectById(id);
     }
+    public User selectByName(String userName){
+        return userDAO.selectByName(userName);
+    }
 
     public Map<String,String> register(String name,String password){
         Map<String,String> map = new HashMap<>();
@@ -70,6 +73,7 @@ public class UserService {
         }
         String ticket = addLoginTicket(user.getId());
         map.put("ticket",ticket);
+        map.put("userId",String.valueOf(user.getId()));
         return map;
     }
     public String addLoginTicket(int userId){
@@ -78,7 +82,7 @@ public class UserService {
         loginTicket.setUserId(userId);
         loginTicket.setTicket(UUID.randomUUID().toString().replace("-",""));
         Date date = new Date();
-        date.setTime(3600*24*100+date.getTime());
+        date.setTime(3600*24*1000+date.getTime());
         loginTicket.setExpired(date);
         loginTicketDAO.addTicket(loginTicket);
         return loginTicket.getTicket();

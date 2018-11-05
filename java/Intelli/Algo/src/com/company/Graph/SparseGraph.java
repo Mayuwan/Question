@@ -1,15 +1,14 @@
 package com.company.Graph;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class sparseGraph implements Graph {
+public class SparseGraph implements Graph{
     private int v;
     private int e;
     private LinkedList<LinkedList<Integer>> matrix;
     private boolean isDirected;
 
-    public sparseGraph(int v, boolean isDirected){
+    public SparseGraph(int v, boolean isDirected){
         this.v = v;
         this.e =0;
         this.isDirected = isDirected;
@@ -25,8 +24,6 @@ public class sparseGraph implements Graph {
             matrix.get(b).add(a);
 
         e++;
-
-
     }
     public boolean hasEdge(int a, int b){
 
@@ -49,7 +46,7 @@ public class sparseGraph implements Graph {
     public adjIterator getAdjIterater(int v){
         return new adjIterator(v);
     }
-    class adjIterator{
+    class adjIterator{//遍历器，遍历节点v的所有相邻节点
         //private Graph G;
         private int v;
         private int index;

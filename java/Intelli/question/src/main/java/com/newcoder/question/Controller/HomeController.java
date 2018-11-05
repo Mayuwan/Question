@@ -1,9 +1,13 @@
 package com.newcoder.question.Controller;
 
+import com.newcoder.question.Model.EntityType;
 import com.newcoder.question.Model.Question;
 import com.newcoder.question.Model.ViewObject;
+import com.newcoder.question.Service.FollowService;
 import com.newcoder.question.Service.QuestionService;
 import com.newcoder.question.Service.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,10 +19,13 @@ import java.util.List;
 
 @Controller
 public class HomeController {
+    public static final Logger logger = LoggerFactory.getLogger(HomeController.class);
     @Autowired
     QuestionService questionService;
     @Autowired
     UserService userService;
+    @Autowired
+    FollowService followService;
 
     public List<ViewObject> getQuestions(int userId, int offset, int limit){
         List<Question> questionsList  =questionService.selectLatestQuestions(userId,offset,limit);
@@ -26,6 +33,7 @@ public class HomeController {
         for(Question question: questionsList){
             ViewObject vo = new ViewObject();
             vo.set("question",question);
+            vo.set("followCount",followService.getFollowersCount(EntityType.ENTITY_QUESTION,question.getId()));
             vo.set("user",userService.selectById(question.getUserId()));
             vos.add(vo);
         }

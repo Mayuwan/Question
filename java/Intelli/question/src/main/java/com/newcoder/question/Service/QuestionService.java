@@ -27,10 +27,16 @@ public class QuestionService {
         //前缀树算法：将敏感词创建为一个树，根据树来查找
         sensitiveService.filter(question.getContent());
         sensitiveService.filter(question.getTitle());
+
         return questionDAO.addQuestion(question);
     }
 
     public Question getQuestionById(int id){
         return questionDAO.selectQuestionById(id);
     }
+
+    public void updateCommentCount(int id , int commentCount){
+        questionDAO.updateCommentCount(id,commentCount);
+    }
+
 }

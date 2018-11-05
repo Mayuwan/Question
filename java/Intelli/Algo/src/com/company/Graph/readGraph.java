@@ -19,7 +19,5 @@ public class readGraph {
         }catch (Exception e){
             e.printStackTrace();
         }
-
-
     }
 }

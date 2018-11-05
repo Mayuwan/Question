@@ -1,9 +1,5 @@
 package com.company;
-import com.company.Sort.*;
 import com.company.Graph.*;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Random;
 
 public class Main {
     public static int binerySearch(int[] arr,int target){
@@ -42,11 +38,18 @@ public class Main {
         readGraph readDense = new readGraph(graph,"G:\\java\\Intelli\\algorithm\\java\\Intelli\\Algo\\src\\com\\company\\Graph\\testG1.txt");
         graph.show();
 */
-        int v = 13;
-        sparseGraph graph2 = new sparseGraph(v,false);
-        readGraph readSparse = new readGraph(graph2,"G:\\java\\Intelli\\algorithm\\java\\Intelli\\Algo\\src\\com\\company\\Graph\\testG1.txt");
-        DepthFirstSearch dep = new DepthFirstSearch(graph2);
-        System.out.println(dep.getCount());
+        int v = 7;
+        SparseGraph graph2 = new SparseGraph(v,false);
+        readGraph readSparse = new readGraph(graph2,"G:\\java\\Intellij\\newCoder\\java\\Intelli\\Algo\\src\\com\\company\\Graph\\testG2.txt");
+        graph2.show();
+        //DepthFirstSearch dep = new DepthFirstSearch(graph2);
+       // System.out.println(dep.getCount());
+        Path path = new Path(graph2,0);
+        path.showPath(6);
+
+        ShortestPath shortestPath = new ShortestPath(graph2,0);
+        shortestPath.showPath(6);
+        System.out.println(shortestPath.distance(6));
 
         /*int n=1000000;
         int[] arr = test.generateRandom(n, 0,n);//不能自动装箱

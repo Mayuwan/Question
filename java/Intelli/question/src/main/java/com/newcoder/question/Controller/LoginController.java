@@ -5,6 +5,10 @@ import com.newcoder.question.DAO.LoginTicketDAO;
 import com.newcoder.question.Model.HostHolder;
 import com.newcoder.question.Model.User;
 import com.newcoder.question.Service.UserService;
+import com.newcoder.question.async.EventModel;
+import com.newcoder.question.async.EventProducer;
+import com.newcoder.question.async.EventType;
+import com.newcoder.question.util.JedisAdapter;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,6 +29,9 @@ public class LoginController {
 
     @Autowired
     UserService userService;
+
+    @Autowired
+    EventProducer eventProducer;
 
 
     @RequestMapping(path = {"/reg/"},method = {RequestMethod.POST})
@@ -57,7 +64,7 @@ public class LoginController {
     }
 
 
-    @RequestMapping(path = {"relogin"},method = {RequestMethod.GET})
+    @RequestMapping(path = {"/reglogin"},method = {RequestMethod.GET})
     public String relogin(Model model,
                           @RequestParam(value = "next", required = false) String next){
         if(StringUtils.isNotBlank(next)){
@@ -80,6 +87,11 @@ public class LoginController {
                 Cookie cookie = new Cookie("ticket",map.get("ticket"));
                 cookie.setPath("/");//啥意思？
                 response.addCookie(cookie);
+
+                eventProducer.fireEvent(new EventModel(EventType.LOGIN).setActionId(Integer.valueOf(map.get("userId")))
+                        .setExts("username",username)
+                        .setExts("email", "zjuyxy@qq.com"));
+
                 if(StringUtils.isNotBlank(next)){//判断是否为未登录跳转
                     return "redirect:"+next;
                 }

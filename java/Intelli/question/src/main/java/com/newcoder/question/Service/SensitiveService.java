@@ -17,8 +17,9 @@ public class SensitiveService implements InitializingBean{//初始化时读取�
     private static final Logger logger = LoggerFactory.getLogger(SensitiveService.class);
     @Override
     public void afterPropertiesSet() throws Exception {
+        logger.info("运行读取文件");
         try{
-            InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("SensitiveService.txt");
+            InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("SensitiveWords.txt");
             BufferedReader reader = new BufferedReader(new InputStreamReader(is));
             String line;
             while((line = reader.readLine())!=null){
@@ -116,6 +117,6 @@ public class SensitiveService implements InitializingBean{//初始化时读取�
         SensitiveService service = new SensitiveService();
         service.addNode("色情");
         service.addNode("赌博");
-        System.out.println(service.filter("你好  色sdfdgi 情 的故事 赌博 但是公司大股东"));
+        System.out.println(service.filter("你好  色 情 的故事 赌博 但是公司大股东"));
     }
 }

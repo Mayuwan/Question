@@ -1,5 +1,7 @@
 package com.newcoder.question.Controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -16,6 +18,7 @@ import java.io.*;
 
 //@Controller
 public class IndexController {
+    public static final Logger logger = LoggerFactory.getLogger(IndexController.class);
     @RequestMapping(path = {"/","/index"},method = {RequestMethod.GET})
     @ResponseBody
     public String index(HttpSession session){

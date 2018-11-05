@@ -21,6 +21,6 @@ public interface LoginTicketDAO {
     @Update({"update ",TABLE_NAMR,"set status=#{status} where ticket=#{ticket}"})
     void updateStatus(@Param("status") int status, @Param("ticket") String ticket);
 
-    @Delete({"delete from ",TABLE_NAMR," where ticket=#{ticket}"})
-    void deleteTicket(String ticket);
+    /*@Delete({"delete from ",TABLE_NAMR," where ticket=#{ticket}"})
+    void deleteTicket(String ticket);*/
 }

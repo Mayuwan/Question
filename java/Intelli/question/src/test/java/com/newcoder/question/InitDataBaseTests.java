@@ -1,8 +1,10 @@
 package com.newcoder.question;
 import com.newcoder.question.DAO.QuestionDAO;
 import com.newcoder.question.DAO.UserDAO;
+import com.newcoder.question.Model.EntityType;
 import com.newcoder.question.Model.Question;
 import com.newcoder.question.Model.User;
+import com.newcoder.question.Service.FollowService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -23,7 +25,8 @@ public class InitDataBaseTests {
     UserDAO userDAO;
     @Autowired
     QuestionDAO questionDAO;
-
+    @Autowired
+    FollowService followService;
     @Test
     public void contextLoads() {
         Random random = new Random();
@@ -37,6 +40,9 @@ public class InitDataBaseTests {
 
             user.setPassword("newpassword");
             userDAO.updatePassword(user);
+            /*for(int j=0;j<i;j++){
+                followService.follow(j,EntityType.ENTITY_USER,i);
+            }*/
 
             Question question = new Question();
             question.setCommentCount(i);

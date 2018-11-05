@@ -1,8 +1,6 @@
 package com.company.Graph;
 
-import java.util.ArrayList;
-
-public class DenseGraph  implements Graph {
+public class DenseGraph implements Graph{
     private int v;
     private int e;
     //private ArrayList<ArrayList<Boolean>> matrix;

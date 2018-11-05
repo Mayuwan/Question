@@ -1,14 +1,29 @@
 package com.newcoder.question.Model;
 
+import java.util.Date;
+
 public class Message {
     private int id;
     private int fromId;
     private int toId;
     private String content;
-    private int conversationId;
-    private int creadedDate;
+    private String conversationId;//fromId(小)_toId(大)
+    private Date createdDate;
+    private int hasRead;//0:未读
 
-    public Message(){}
+    public void setConversationId(String conversationId) {
+        this.conversationId = conversationId;
+    }
+
+    public String getConversationId() {
+        if(fromId<toId){
+            return String.format("%d_%d",fromId,toId);
+        }
+        else{
+            return String.format("%d_%d",toId,fromId);
+        }
+
+    }
 
     public int getId() {
         return id;
@@ -42,19 +57,20 @@ public class Message {
         this.content = content;
     }
 
-    public int getConversationId() {
-        return conversationId;
+
+    public Date getCreatedDate() {
+        return createdDate;
     }
 
-    public void setConversationId(int conversationId) {
-        this.conversationId = conversationId;
+    public void setCreatedDate(Date createdDate) {
+        this.createdDate = createdDate;
     }
 
-    public int getCreadedDate() {
-        return creadedDate;
+    public int getHasRead() {
+        return hasRead;
     }
 
-    public void setCreadedDate(int creadedDate) {
-        this.creadedDate = creadedDate;
+    public void setHasRead(int hasRead) {
+        this.hasRead = hasRead;
     }
 }

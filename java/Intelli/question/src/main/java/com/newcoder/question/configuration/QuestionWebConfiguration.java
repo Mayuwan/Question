@@ -16,7 +16,8 @@ public class QuestionWebConfiguration extends WebMvcConfigurerAdapter {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(passportInterceptor);
-        registry.addInterceptor(loginRequiredInterceptor).addPathPatterns("/user/*");//当访问/user/*页面时访问该拦截器
+        registry.addInterceptor(loginRequiredInterceptor).addPathPatterns("/user/*","/question/*");//当访问/user/*页面时访问该拦截器
+        //registry.addInterceptor(loginRequiredInterceptor).addPathPatterns("");
         super.addInterceptors(registry);
     }
 }

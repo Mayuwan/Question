@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d64d247-95ef-4702-9f75-3be5db06b3e3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Graph/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Graph/ShortestPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Graph/DenseGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Graph/DenseGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Graph/DepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Graph/DepthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Graph/readGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Graph/readGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Graph/sparseGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Graph/SparseGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Aspect/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/DAO/CommentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/DAO/CommentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/DAO/LoginTicketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/DAO/LoginTicketDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/DAO/MessageDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/DAO/MessageDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/DAO/QuestionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/DAO/QuestionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Service/SensitiveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Service/SensitiveService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/configuration/QuestionWebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/configuration/QuestionWebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/interceptor/LoginRequiredInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/interceptor/LoginRequiredInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/interceptor/PassportInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/interceptor/PassportInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/util/WendaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/java/com/newcoder/question/util/WendaUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/base/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/base/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/base/event.js" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/base/event.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/base/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/base/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/component/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/component/component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/component/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/component/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/component/popupAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/component/popupAdd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/component/popupMsg.js" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/component/popupMsg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/site/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/static/scripts/main/site/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/static/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/static/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/templates/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/templates/letter.html" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/templates/letter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/templates/letterDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/templates/letterDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/main/resources/toolbox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/main/resources/toolbox.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/test/java/com/newcoder/question/InitDataBaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/test/java/com/newcoder/question/InitDataBaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question/src/test/resources/init-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../question/src/test/resources/init-schema.sql" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="readGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Graph/readGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DenseGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Graph/DenseGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShortestPath.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Graph/ShortestPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
+                <element signature="e#1660#1661#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepthFirstSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Graph/DepthFirstSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/Graph/DepthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Graph/sparseGraph.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Graph/Graph.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Graph/readGraph.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Graph/test.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Graph/SparseGraph.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Graph/DenseGraph.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Graph/Path.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Graph/ShortestPath.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="120" />
+    <option name="y" value="3" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Algo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d64d247-95ef-4702-9f75-3be5db06b3e3" name="Default" comment="" />
+      <created>1541323582023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541323582023</updated>
+      <workItem from="1541323583391" duration="8653000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8653000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
+      <window_info anchor="bottom" id="Messages" weight="0.3298969" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45704466" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3298969" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19847329" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39862543" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/readGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/bineryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/DenseGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/DepthFirstSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/SparseGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding>
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+            <element signature="e#1988#1989#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="71" column="40" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Graph/ShortestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

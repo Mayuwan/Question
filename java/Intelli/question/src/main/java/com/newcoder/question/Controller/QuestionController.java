@@ -1,10 +1,8 @@
 package com.newcoder.question.Controller;
 
 import com.newcoder.question.DAO.QuestionDAO;
-import com.newcoder.question.Model.HostHolder;
-import com.newcoder.question.Model.Question;
-import com.newcoder.question.Service.QuestionService;
-import com.newcoder.question.Service.UserService;
+import com.newcoder.question.Model.*;
+import com.newcoder.question.Service.*;
 import com.newcoder.question.util.WendaUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +11,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Controller
 public class QuestionController {
@@ -26,6 +26,12 @@ public class QuestionController {
     UserService userService;
     @Autowired
     HostHolder hostHolder;
+    @Autowired
+    CommentService commentService;
+    @Autowired
+    LikeService likeService;
+    @Autowired
+    FollowService followService;
 
     @RequestMapping(path = "/question/add", method = {RequestMethod.POST})
     @ResponseBody
@@ -58,7 +64,48 @@ public class QuestionController {
                                 @PathVariable("questionId") int questionId){
         Question question = questionService.getQuestionById(questionId);
         model.addAttribute("question",question);
-        model.addAttribute("user",userService.selectById(question.getUserId()));
+
+        List<Comment>  commentList = commentService.getCommentsByEntity(questionId,EntityType.ENTITY_QUESTION);
+        List<ViewObject> comments = new ArrayList<>();
+        for(Comment comment : commentList){
+            ViewObject vos = new ViewObject();
+            vos.set("comment",comment);
+
+            if(hostHolder.getUser() == null){
+                vos.set("liked",0);
+            }else{
+                vos.set("liked",likeService.getLikeStatus(hostHolder.getUser().getId(),EntityType.ENTITY_COMMENT,comment.getId()));
+            }
+            vos.set("likeCount",likeService.getLikeCount(comment.getId(),EntityType.ENTITY_COMMENT));
+            vos.set("user",userService.selectById(comment.getUserId()));
+            comments.add(vos);
+        }
+        model.addAttribute("comments",comments);
+
+        List<Integer> followersId = followService.getFollowers(EntityType.ENTITY_QUESTION,questionId,20);
+        List<ViewObject> followUsers = new ArrayList<>();
+        for(Integer userId : followersId){
+            ViewObject vo = new ViewObject();
+            User u = userService.selectById(userId);
+            if (u == null) {
+                continue;
+            }
+            vo.set("name", u.getName());
+            vo.set("headUrl", u.getHeadUrl());
+            vo.set("id", u.getId());
+            followUsers.add(vo);
+        }
+        model.addAttribute("followUsers",followUsers);
+
+        if (hostHolder.getUser() != null) {
+            model.addAttribute("followed", followService.isFollower(hostHolder.getUser().getId(), EntityType.ENTITY_QUESTION, questionId));
+        } else {
+            model.addAttribute("followed", false);
+        }
+
+
+
+        //model.addAttribute("user",userService.selectById(question.getUserId()));
         return "detail";
     }
 }

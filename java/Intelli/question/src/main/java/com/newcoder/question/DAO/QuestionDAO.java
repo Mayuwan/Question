@@ -27,4 +27,7 @@ public interface QuestionDAO {
     @Delete({"delete from ",TABLE_NAME ," where id=#{id}"})
     void deleteById(int id);
     */
+    @Update({"update ",TABLE_NAME," set comment_count=#{commentCount} where id=#{id}"})
+    void updateCommentCount(@Param("id") int id,
+                            @Param("commentCount") int commentCount);
 }
