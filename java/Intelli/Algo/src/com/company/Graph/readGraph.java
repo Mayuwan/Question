@@ -10,10 +10,12 @@ public class readGraph {
             String line;
             V = Integer.valueOf(firstLine.split(" ")[0]);
             E = Integer.valueOf(firstLine.split(" ")[1]);
+
             for(int i=0;i<E;i++){
                 line=reader.readLine();
-                a = Integer.valueOf(line.split(" ")[0]);
-                b = Integer.valueOf(line.split(" ")[1]);
+                String[] strs = line.split(" ");
+                a = Integer.valueOf(strs[0]);
+                b = Integer.valueOf(strs[1]);
                 graph.addEdge(a,b);
             }
         }catch (Exception e){

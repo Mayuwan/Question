@@ -6,7 +6,9 @@ import com.company.unionFind.UnionFound3;
 import com.company.unionFind.UnionFound4;
 
 import java.util.Random;
-
+import java.lang.management.ManagementFactory;
+import java.lang.management.ThreadInfo;
+import java.lang.management.ThreadMXBean;
 public class test {
     public  static int[] generateRandom(int n, int start, int end){
         int[] arr = new int[n];
@@ -83,4 +85,16 @@ public class test {
         }
         System.out.println("UnionFound4:"+(double)(System.currentTimeMillis()-start)/1000);
     }
+
+
+        public static void main(String[] args) {
+            System.out.println("below is thread info:");
+            ThreadMXBean threadMXBean = ManagementFactory.getThreadMXBean();
+            long[] threadIds = threadMXBean.getAllThreadIds();
+            ThreadInfo[] threadInfos = threadMXBean.getThreadInfo(threadIds);
+            for (ThreadInfo threadInfo : threadInfos) {
+                System.out.println(threadInfo.getThreadId()+": "+threadInfo.getThreadName());
+            }
+        }
+
 }

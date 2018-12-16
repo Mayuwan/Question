@@ -14,7 +14,7 @@ public class Main {
     }
     public static void main(String[] args) {
 	// write your code here
-        /*bineryTree tree = new bineryTree();
+        /*BineryTree tree = new BineryTree();
         Integer[] arr = test.generateAlmostSorted(15,3);
         Arrays.asList(arr);
         for(Integer num:arr){
@@ -35,12 +35,12 @@ public class Main {
         */
         /*
         DenseGraph graph = new DenseGraph(v,false);
-        readGraph readDense = new readGraph(graph,"G:\\java\\Intelli\\algorithm\\java\\Intelli\\Algo\\src\\com\\company\\Graph\\testG1.txt");
+        ReadGraph readDense = new ReadGraph(graph,"G:\\java\\Intelli\\algorithm\\java\\Intelli\\Algo\\src\\com\\company\\Graph\\testG1.txt");
         graph.show();
 */
         int v = 7;
         SparseGraph graph2 = new SparseGraph(v,false);
-        readGraph readSparse = new readGraph(graph2,"G:\\java\\Intellij\\newCoder\\java\\Intelli\\Algo\\src\\com\\company\\Graph\\testG2.txt");
+        readGraph readSparse = new readGraph(graph2,"testG2.txt");
         graph2.show();
         //DepthFirstSearch dep = new DepthFirstSearch(graph2);
        // System.out.println(dep.getCount());

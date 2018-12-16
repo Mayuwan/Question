@@ -54,8 +54,7 @@ public class DenseGraph implements Graph{
             index =-1;
             return next();
         }
-        public int next(){
-            index++;
+        public int next(){//跳过null没使用循环
             for(index+=1;index<matrix[v].length;index++)  {//注意index+=1条件
                 if(matrix[v][index] == 1){
                     return index;

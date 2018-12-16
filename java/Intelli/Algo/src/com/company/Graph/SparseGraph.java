@@ -3,10 +3,10 @@ package com.company.Graph;
 import java.util.LinkedList;
 
 public class SparseGraph implements Graph{
-    private int v;
-    private int e;
+    private int v;//顶点数
+    private int e;//边数
     private LinkedList<LinkedList<Integer>> matrix;
-    private boolean isDirected;
+    private boolean isDirected;//有向图 | 无向图
 
     public SparseGraph(int v, boolean isDirected){
         this.v = v;
