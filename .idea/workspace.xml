@@ -2,168 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f27a80-1dbf-4102-bcf0-c0be2b655bcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Algo/src/com/company/MinimumSpanTree/DenseGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algo/src/com/company/MinimumSpanTree/SparseGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/out/production/Algo/com/company/Graph/DenseGraph$adjIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/out/production/Algo/com/company/Graph/DenseGraph$adjIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/out/production/Algo/com/company/Graph/DenseGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/out/production/Algo/com/company/Graph/DenseGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/out/production/Algo/com/company/Graph/readGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/out/production/Algo/com/company/Graph/readGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/out/production/Algo/com/company/Graph/testG1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/out/production/Algo/com/company/Graph/testG1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/out/production/Algo/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/out/production/Algo/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/out/production/Algo/com/company/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/out/production/Algo/com/company/bineryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/src/com/company/Graph/DenseGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/src/com/company/Graph/DenseGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/src/com/company/Graph/Edage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/src/com/company/Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/src/com/company/Graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/src/com/company/Graph/SparseGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/src/com/company/Graph/SparseGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/src/com/company/Graph/readGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/src/com/company/Graph/readGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/src/com/company/Graph/testG1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/src/com/company/Graph/testG1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/src/com/company/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/src/com/company/BinaryTree/BinaryTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Algo/src/com/company/bineryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algo/src/com/company/BinaryTree/BineryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/Controller/FeedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/Controller/FeedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/Controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/Controller/FollowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/Controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/Controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/Controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/Controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/Controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/DAO/FeedDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/DAO/FeedDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/Model/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/Model/Feed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/async/EventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/async/EventConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/async/EventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/async/EventType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/async/handler/FeedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/async/handler/FeedHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/async/handler/LoginExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/async/handler/LoginExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/util/JedisAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/util/JedisAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/util/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/util/MailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newcoder/question/util/RedisKeyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newcoder/question/util/RedisKeyUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com.newcoder.question.DAO/FeedDAO.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com.newcoder.question.DAO/FeedDAO.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/img/spinner2.8f60205d.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites-1.9.2.4c54885a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites-1.9.2@2x.6e638473.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites.auto.915a539c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/img/sprites@2x.auto.dd5c79c1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/070a9fb26_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/0b856ef58f76b7c83a0e130f6ef71281_200x112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/0ba3da3f03ced7a438118b0be77df56c_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/0c6a39621ab1d456b1e6e492d0becc0c_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/0cf21546298ad1ed3cb64be61d822c27_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/0cffb89d0b0bd4e726ae54b212a31c3b_200x112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/102799979_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/10a4cd7fb082375332be33eadfd14c58_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/11ba31c8bb5473a44b7690eff24b9123_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/11be4a90ed938abfbab4899df56ee754_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/12a8e1ce5ad8060fddb93ae2df98028b_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/19456ebfe8b207320735f282769ac635_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/1ac7840eeb19ada0bbf85f51702d5784_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/1ce495b02_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/23cace5cf60f39dbc095bd7a12b2cfad_200x112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/24ce38dd5fc2a0c4e0525e577eef7d64_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/272627e471a533f58f319a9e600e0a94_is.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/2e21e58a990f5c756e813a64a4bba14c_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/31826765d442d8222a05cd67d0643a25_270x225.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/33fb6f51a3f4e16b6e89172040451dca_b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/3b673d6335ef6788d1659ee2b6381e97_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/41d652d947a489e056b0179ba137294b_m.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/450c9d9f5240f05f73d21fe3ae76f1a6_200x112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/4528283ed249589634546327431667bf_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/4d104b6c6a08f7e1a48f4f32c88b1ce2_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/51559bbebaa7fd395c271b7b1c8b9f26_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/558b3e3d8be209247159ba4f83ab1c02_200x112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/6088e39f2_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/66a689b2c60557eae79d839aaedf48b0_200x112.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/6c76223a5aef2f1d29c680a2524de791_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/6ceea810748d179f57cac0baa5cf9592_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/6cfbfc0c5e3c5ecd8784f7e733a75b4f_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/6fd46860a4b6cbc1e52d676f217ea9fd_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/7412830858217e93f6c5d06f6328cbd5_200x112.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/7986ef6045f2cef8352be5affce5f7d1_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/837b60aa36029a2309974e74de3b62e9_xl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/845303838eca4a5b5f03cc3ca994ec28_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/845c492813e72b85c6e11cccf8ed0ff8_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/935f87219_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/975baaf73fd76f48ce6f05e19b176878_xl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/9cfe980ca44e38bd9b0e5c3dee5b0f3e_270x225.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/9ec0168d1b210d9b8f089e16f521b82b_200x112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/a3f80f6a6_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/a4df63114bd9374a73775e30db1cdd36_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/a57fdaff90865eaaef2e87051624862b_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/aa49b7ceff22ea68ca5f747115cd17af_200x112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/aadd7b895_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/aadd7b895_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/actioncard-suggested-avatar.c5af416d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/actioncard-validation@2x.65147043.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/b144d91ec_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/b3aadf89405941b05a5ce00fb06f8281_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/b476f1461388bf4907634009904739e6_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/b4a6228e6810d38e19e491c173af4d5c_m.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/b85ddd8aa_xl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/badaaf312e59c125928bd1ea2d4b5a51_b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/bb73b7fb48b0cb63aa573415dfe4d0c5_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/bc93fd5289c13c06fd569bc4f6df821e_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/be39d110759e68f389b7d2934d7353bc_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/c07f969d8dcc6251ef114fe6b1a9a563_200x112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/c28e9af7f_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/c54bb4367803ba590035d2d89d1a84dd_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/c79247853_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/c898060535edfdbe4147d2135c29787f_200x112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/c94c92af8_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/cafae465b8ea283498c69ab9757f86ba_xl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/captcha.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/cbc5d3c6f333215a1c480cb3b4735b45_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/d207854fffc9e0289fbd6bbbb3986988_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/d6842d77b4bda238e0db09217e3d2f8d_270x225.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/d822a919d93a761634a67c2022a3f614_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/da8e974dc_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/da8e974dc_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/da8e974dc_s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/df4aa616fdcfbd861c010ff71aaef95c_b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/e174d6d0c_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/e6f4caaaa_m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/e8757728eb70adeb8ebaa0864874c29d_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/ec6bb3fa05625b848ac4d475ecce35c9_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/f1148eb1c7170cabb0a78dad73b590f6_200x112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/f99201e42237de4fb7f8d5fbf9a2d270_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/fa70eff301ba417d4a9d3f55d603a29e_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/facfb45ac94f174655695853d4470bac_200x112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/fb05f15bf8bffd1590df442ff6ba7812_200x112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/fb6c4dd60a9f19f5fcd8265395e11f9e_200x112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/fff25000064308791f739149af611439_is.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/hour.3d371c99.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/nacl.656ec1c4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/nk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/res/weekly.65279d61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/aza-0.1.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/base.fb262f0e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/common.fed5411f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/ga.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/instant.e7a17de6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/base/base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/base/event.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/base/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/popupAdd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/component/popupMsg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/detail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/follow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/site/profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/util/action.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/main/util/business.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/page-index.d7b54ac7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/page-main.5d4c554d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/richtexteditor.aa0a4005.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/vendor.ff76fbae.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/za-0.1.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/detail.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/letter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/result.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/feeds.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/feeds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/Intelli/Algo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/Algo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/BinaryTree/BinaryTreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/BinaryTree/BineryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Graph/DenseGraph$adjIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Graph/DenseGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Graph/DepthFirstSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Graph/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Graph/Path.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Graph/ShortestPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Graph/SparseGraph$adjIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Graph/SparseGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Graph/readGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Graph/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Graph/testG1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Graph/testG2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/DenseGraph$adjIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/DenseGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/Edage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/IndexMinHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/IndexMinPQ$HeapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/IndexMinPQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/KruskalMST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/LazyPrimMST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/MinHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/OpimizeLazyPrimMST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/QuickUnionFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/ReadGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/SparseGraph$adjIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/SparseGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/quickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/MinimumSpanTree/testG1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Sort/N2Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Sort/mergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/Sort/quickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/unionFind/UnionFound1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/unionFind/UnionFound2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/unionFind/UnionFound3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/com/company/unionFind/UnionFound4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/jike/DeadLockSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/offer/BinaryTreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/offer/CountDownLatchExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/offer/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/offer/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/offer/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/offer/pra3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/offer/pra4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/offer/pra5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/offer/pra6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/out/production/Algo/offer/pra9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/BinaryTree/BinaryTreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/BinaryTree/BineryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Graph/DenseGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Graph/DepthFirstSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Graph/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Graph/Path.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Graph/ShortestPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Graph/SparseGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Graph/readGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Graph/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Graph/testG1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Graph/testG2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MaxHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/DenseGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/Edage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/IndexMinHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/IndexMinPQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/KruskalMST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/LazyPrimMST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/MinHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/OpimizeLazyPrimMST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/QuickUnionFound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/ReadGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/SparseGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/quickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/MinimumSpanTree/testG1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Sort/N2Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Sort/mergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/Sort/quickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/unionFind/UnionFound1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/unionFind/UnionFound2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/unionFind/UnionFound3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/com/company/unionFind/UnionFound4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/jike/DeadLockSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/offer/CountDownLatchExample1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/offer/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/offer/pra3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/offer/pra4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/offer/pra5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/offer/pra6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/Intelli/Algo/src/offer/pra9.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -263,6 +208,15 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
     </session>
+    <session id="1834740241">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
@@ -305,8 +259,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/newcoder/question/Aspect/LogAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="120">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -397,7 +351,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -446,7 +400,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="744" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -572,137 +526,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="Aspect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wenda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="newCoder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -716,7 +553,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543933682758" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../IDEAworkspace/concurrency" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -859,6 +696,7 @@
       <workItem from="1544589328266" duration="645000" />
       <workItem from="1544759836659" duration="5023000" />
       <workItem from="1544819036698" duration="38000" />
+      <workItem from="1544972065083" duration="353000" />
     </task>
     <servers />
   </component>
@@ -868,7 +706,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156989000" />
+    <option name="totallyTimeSpent" value="157342000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -880,9 +718,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09603004" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09710301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1299,8 +1137,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/newcoder/question/Aspect/LogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
